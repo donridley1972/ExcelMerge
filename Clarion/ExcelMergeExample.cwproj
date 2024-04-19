@@ -1,0 +1,44 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{FDE12E0C-C6A0-4C18-8E1B-388A1D66B0D1}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Win32</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ExcelMergeExample</RootNamespace>
+    <AssemblyName>ExcelMergeExample</AssemblyName>
+    <OutputName>ExcelMergeExample</OutputName>
+    <CWOutputType>Exe</CWOutputType>
+    <DefineConstants>_ABCDllMode_=&gt;0%3b_ABCLinkMode_=&gt;1</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <vid>full</vid>
+    <check_stack>True</check_stack>
+    <check_index>True</check_index>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <vid>off</vid>
+    <check_stack>False</check_stack>
+    <check_index>False</check_index>
+  </PropertyGroup>
+  <ItemGroup>
+    <Library Include="ExcelMerge.lib" />
+    <Library Include="ExcelMergeExample.EXE.manifest" />
+    <Compile Include="ExcelMergeExample.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="ExcelMergeExample001.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="EXCELMERGEEXAMPLE_BC.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="ExcelMergeExample_BC0.CLW">
+      <Generated>true</Generated>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(ClarionBinPath)\SoftVelocity.Build.Clarion.targets" />
+</Project>

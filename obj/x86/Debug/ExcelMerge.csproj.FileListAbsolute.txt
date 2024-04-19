@@ -1,0 +1,8 @@
+C:\Users\Don\source\repos\ExcelMerge\bin\x86\Debug\ExcelMerge.dll
+C:\Users\Don\source\repos\ExcelMerge\bin\x86\Debug\ExcelMerge.pdb
+C:\Users\Don\source\repos\ExcelMerge\obj\x86\Debug\ExcelMerge.csproj.AssemblyReference.cache
+C:\Users\Don\source\repos\ExcelMerge\obj\x86\Debug\ExcelMerge.csproj.CoreCompileInputs.cache
+C:\Users\Don\source\repos\ExcelMerge\obj\x86\Debug\ExcelMerge.dll
+C:\Users\Don\source\repos\ExcelMerge\obj\x86\Debug\ExcelMerge.pdb
+C:\Users\Don\source\repos\ExcelMerge\obj\x86\Debug\ExcelMerge.csproj.Up2Date
+C:\Users\Don\source\repos\ExcelMerge\bin\x86\Debug\RGiesecke.DllExport.Metadata.dll

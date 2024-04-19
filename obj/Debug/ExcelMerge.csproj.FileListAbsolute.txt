@@ -1,0 +1,6 @@
+C:\Users\Don\source\repos\ExcelMerge\bin\Debug\ExcelMerge.dll
+C:\Users\Don\source\repos\ExcelMerge\bin\Debug\ExcelMerge.pdb
+C:\Users\Don\source\repos\ExcelMerge\obj\Debug\ExcelMerge.csproj.AssemblyReference.cache
+C:\Users\Don\source\repos\ExcelMerge\obj\Debug\ExcelMerge.csproj.CoreCompileInputs.cache
+C:\Users\Don\source\repos\ExcelMerge\obj\Debug\ExcelMerge.dll
+C:\Users\Don\source\repos\ExcelMerge\obj\Debug\ExcelMerge.pdb
